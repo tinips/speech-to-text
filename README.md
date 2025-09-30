@@ -26,7 +26,7 @@ speech-to-text/
 ├── v3_early_stopping/        # Experiment with early stopping enabled
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
-
+```
 
 ## ✨ Features
 
