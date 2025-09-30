@@ -50,10 +50,22 @@ speech-to-text/
    ```bash
    git clone https://github.com/tinips/speech-to-text.git
    cd speech-to-text
+   
+## 🧑‍💻 Usage
+
+Each experiment version includes a `main.py` script that can be executed directly.
+
+### Training
+Run the `main.py` file inside the version folder you want to test:
+```bash
+python v1/main.py
+python v2/main.py
+python v3/main.py
+python v3_early_stopping/main.py
+```
 
 
-
-# 📊 Experiments
+## 📊 Experiments
 
 - **v1** → Baseline training pipeline  
 - **v2** → Improved preprocessing and training  
@@ -67,7 +79,6 @@ This project relies on common libraries for deep learning, audio processing, and
 
 - **torch** — core deep learning framework  
 - **torchaudio** — audio preprocessing and datasets for PyTorch  
-- **transformers** — pretrained models (e.g., Whisper, Wav2Vec2)  
 - **numpy** — numerical operations  
 - **pandas** — data handling and tabular processing  
 - **scikit-learn** — preprocessing, metrics, and utilities  
