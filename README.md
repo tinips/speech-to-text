@@ -27,7 +27,7 @@ speech-to-text/
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
 ```
-
+---
 ## ✨ Features
 
 - Audio-to-text model training and inference  
