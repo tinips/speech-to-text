@@ -83,7 +83,7 @@ This project relies on common libraries for deep learning, audio processing, and
 - **numpy** — numerical operations  
 - **pandas** — data handling and tabular processing  
 - **matplotlib** — visualization of results and training curves  
-
+- **wandb** — experiment tracking and visualization  
 ---
 
 ### 📄 Installing dependencies
@@ -93,4 +93,11 @@ You can install them with:
 
 ```bash
 pip install -r requirements.txt
+```
+---
+## 👥 Authors
 
+- **Albert Árboles** — Project lead, model versions (v1–v3)  
+- **Adrian Fuster** — Fine-tuning experiments  
+- **Pol Termes** — Analysis of model result distributions
+- **Marc Cases** — Dataset studies, cleaning, and code implementation
