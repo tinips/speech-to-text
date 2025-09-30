@@ -14,18 +14,19 @@ Several experimental versions (`v1`, `v2`, `v3`, `v3_early_stopping`) are provid
 
 ## 📂 Project Structure
 
+```text
 speech-to-text/
 │
-├── estudi_distribucions/ # Scripts and notebooks for dataset distribution analysis
-├── fine_tunning_rosany/ # Fine-tuning experiments on the Rosany dataset
-├── norm_dataset/ # Dataset normalization and preprocessing utilities
-├── v1/ # First training pipeline (baseline)
-├── v2/ # Improved pipeline with refinements
-├── v3/ # Further improvements
-├── v3_early_stopping/ # Experiment with early stopping enabled
-└── README.md # Project documentation
+├── estudi_distribucions/     # Scripts and notebooks for dataset distribution analysis
+├── fine_tunning_rosany/      # Fine-tuning experiments on the Rosany dataset
+├── norm_dataset/             # Dataset normalization and preprocessing utilities
+├── v1/                       # First training pipeline (baseline)
+├── v2/                       # Improved pipeline with refinements
+├── v3/                       # Further improvements
+├── v3_early_stopping/        # Experiment with early stopping enabled
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
 
----
 
 ## ✨ Features
 
