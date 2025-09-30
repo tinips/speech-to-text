@@ -2,15 +2,11 @@
 torch>=2.0.0
 torchaudio>=2.0.0
 
-# Models (Whisper / HF pipelines, si s'usen)
-transformers>=4.30.0
-
 # Data & Utils
 numpy>=1.24.0
 pandas>=1.5.0
-scikit-learn>=1.2.0
 tqdm>=4.65.0
+wandb>=0.15.0
 
-# Viz / Notebooks (per estudis i gràfics)
+# Viz
 matplotlib>=3.7.0
-jupyter>=1.0.0
