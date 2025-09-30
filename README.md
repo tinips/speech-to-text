@@ -64,7 +64,7 @@ python v2/main.py
 python v3/main.py
 python v3_early_stopping/main.py
 ```
-
+---
 
 ## 📊 Experiments
 
@@ -73,7 +73,7 @@ python v3_early_stopping/main.py
 - **v3** → Additional refinements in architecture/training  
 - **v3_early_stopping** → Introduced early stopping to reduce overfitting  
 
-
+---
 ## 📦 Dependencies
 
 This project relies on common libraries for deep learning, audio processing, and data analysis:
@@ -82,7 +82,6 @@ This project relies on common libraries for deep learning, audio processing, and
 - **torchaudio** — audio preprocessing and datasets for PyTorch  
 - **numpy** — numerical operations  
 - **pandas** — data handling and tabular processing  
-- **scikit-learn** — preprocessing, metrics, and utilities  
 - **matplotlib** — visualization of results and training curves  
 
 ---
