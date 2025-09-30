@@ -77,38 +77,25 @@ v3 → Additional refinements in architecture/training
 
 v3_early_stopping → Introduced early stopping to reduce overfitting
 
-📦 Dependencies
+## 📦 Dependencies
 
-Typical dependencies for speech-to-text pipelines may include:
+This project relies on common libraries for deep learning, audio processing, and data analysis:
 
-torch
+- **torch** — core deep learning framework  
+- **torchaudio** — audio preprocessing and datasets for PyTorch  
+- **transformers** — pretrained models (e.g., Whisper, Wav2Vec2)  
+- **numpy** — numerical operations  
+- **pandas** — data handling and tabular processing  
+- **scikit-learn** — preprocessing, metrics, and utilities  
+- **matplotlib** — visualization of results and training curves  
 
-torchaudio
+---
 
-transformers
+### 📄 Installing dependencies
 
-numpy
+All dependencies are listed in `requirements.txt`.  
+You can install them with:
 
-pandas
+```bash
+pip install -r requirements.txt
 
-scikit-learn
-
-matplotlib
-
-You can generate a requirements.txt with:
-
-pip freeze > requirements.txt
-
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the repository
-
-Create a new branch (feature/my-feature)
-
-Commit your changes with clear messages
-
-Push to your branch
-
-Open a Pull Request
