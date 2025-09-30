@@ -38,7 +38,6 @@ speech-to-text/
 - Scripts for dataset distribution analysis  
 
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -51,31 +50,16 @@ speech-to-text/
    ```bash
    git clone https://github.com/tinips/speech-to-text.git
    cd speech-to-text
-2. Install the dependencies
-pip install -r requirements.txt
-
-🧑‍💻 Usage
-Training a model
-python v1/train.py --dataset data/ --epochs 10
-
-Running inference
-python v3/inference.py --audio samples/test.wav --output result.txt
-
-Dataset normalization
-python norm_dataset/normalize.py --input raw/ --output processed/
 
 
-(Adjust commands to match actual script names and arguments.)
 
-📊 Experiments
+# 📊 Experiments
 
-v1 → Baseline training pipeline
+- **v1** → Baseline training pipeline  
+- **v2** → Improved preprocessing and training  
+- **v3** → Additional refinements in architecture/training  
+- **v3_early_stopping** → Introduced early stopping to reduce overfitting  
 
-v2 → Improved preprocessing and training
-
-v3 → Additional refinements in architecture/training
-
-v3_early_stopping → Introduced early stopping to reduce overfitting
 
 ## 📦 Dependencies
 
