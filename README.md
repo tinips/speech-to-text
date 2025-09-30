@@ -50,7 +50,8 @@ speech-to-text/
    ```bash
    git clone https://github.com/tinips/speech-to-text.git
    cd speech-to-text
-   
+
+---
 ## 🧑‍💻 Usage
 
 Each experiment version includes a `main.py` script that can be executed directly.
